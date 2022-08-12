@@ -1,5 +1,6 @@
 # Modbus Communication using NodeMCU ESP8266
 * Connection Details
+
 |     NodeMCU ESP8266 |     RS485 -TTL adapter |
 |:-------------------:|:----------------------:|
 |          D2         |           DI           |
