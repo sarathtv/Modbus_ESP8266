@@ -13,7 +13,7 @@ uint16_t pot_value=0;
 void setup() {
   Serial.begin(9600);
   S.begin(9600, SWSERIAL_8N1);
-  mb.begin(&S,D0); // RE/DI connected to D0 of ESP8266
+  mb.begin(&S,D0); // RE/DE connected to D0 of ESP8266
   
   mb.slave(SLAVE_ID);
   mb.addHreg(POT_VAL_REG);

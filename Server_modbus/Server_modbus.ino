@@ -17,7 +17,7 @@ bool cb(Modbus::ResultCode event, uint16_t transactionId, void* data) { // Callb
 void setup() {
   Serial.begin(9600); // This serial for debug prints
   S.begin(9600, SWSERIAL_8N1);
-  mb.begin(&S,D0); // RE/DI connected to D0 of ESP8266
+  mb.begin(&S,D0); // RE/DE connected to D0 of ESP8266
   mb.master();
   
 }
